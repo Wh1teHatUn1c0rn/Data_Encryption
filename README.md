@@ -8,6 +8,6 @@ The function pads the data so that its length is a multiple of the block size (1
 
 The decrypt_data function takes the same arguments, the data to be decrypted and the key to be used for decryption.
 
-The function decrypts the data and then removes the padding added while encryption.
+The function decrypts the data and then removes the padding added while encrypted.
 
 It is important to keep the key in secret and the key is used for both encryption and decryption.
